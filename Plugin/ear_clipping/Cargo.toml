@@ -1,0 +1,12 @@
+[package]
+name = "ear_clipping"
+version = "1.0.0"
+edition = "2021"
+authors = ["torinos"]
+
+[lib]
+name = "ear_clipping"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,9 @@
+[package]
+name = "plugin_test"
+version = "1.0.0"
+edition = "2021"
+authors = ["torinos"]
+
+[lib]
+name = "plugin_test"
+crate-type = ["cdylib"]
